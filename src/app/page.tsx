@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,9 +24,12 @@ export default function Home() {
                 I&apos;m Ivan, a Visual Designer living in Munich, and I focus on making digital experiences that are easy to use, enjoyable, and get the job done.
               </p>
               
-              <button className="bg-black text-white px-6 py-3 rounded-full font-medium border-2 border-black hover:bg-transparent hover:text-black dark:hover:text-white dark:hover:border-white transition-all duration-300">
+              <Link 
+                href="/contact"
+                className="inline-block bg-black text-white px-6 py-3 rounded-full font-medium border-2 border-black hover:bg-transparent hover:text-black dark:hover:text-white dark:hover:border-white transition-all duration-300"
+              >
                 Let&apos;s Talk →
-              </button>
+              </Link>
             </div>
           </div>
           

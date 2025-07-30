@@ -86,7 +86,7 @@ export default function ContactPage() {
                   onChange={handleInputChange}
                   placeholder="Your name"
                   required
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent bg-white dark:bg-gray-800 text-black dark:text-white"
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent bg-white dark:bg-gray-800 text-black dark:text-white"
                 />
               </div>
 
@@ -101,7 +101,7 @@ export default function ContactPage() {
                   onChange={handleInputChange}
                   placeholder="Enter Your Email"
                   required
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent bg-white dark:bg-gray-800 text-black dark:text-white"
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent bg-white dark:bg-gray-800 text-black dark:text-white"
                 />
               </div>
 
@@ -116,7 +116,7 @@ export default function ContactPage() {
                   placeholder="Enter Your Message"
                   rows={4}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent bg-white dark:bg-gray-800 text-black dark:text-white"
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent bg-white dark:bg-gray-800 text-black dark:text-white"
                 />
               </div>
 
@@ -143,7 +143,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-black dark:bg-white text-white dark:text-black py-3 px-6 rounded-lg font-medium border-2 border-black dark:border-white hover:bg-transparent hover:text-black dark:hover:text-white transition-all duration-300 disabled:opacity-50"
+                className="w-full bg-black dark:bg-white text-white dark:text-black py-3 px-6 rounded-full font-medium border-2 border-black dark:border-white hover:bg-transparent hover:text-black dark:hover:text-white transition-all duration-300 disabled:opacity-50"
               >
                 {isSubmitting ? 'Sending...' : 'Send Your Request'}
               </button>
