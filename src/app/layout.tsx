@@ -24,13 +24,13 @@ function Navigation() {
       <div className="flex space-x-6">
         <Link 
           href="/" 
-          className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium"
+          className="text-gray-900 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium"
         >
           Home
         </Link>
         <Link 
           href="/contact" 
-          className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium"
+          className="text-gray-900 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium"
         >
           Contact
         </Link>

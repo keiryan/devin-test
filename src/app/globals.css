@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --default-transition-duration: 300ms;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
